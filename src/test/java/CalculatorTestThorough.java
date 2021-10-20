@@ -88,13 +88,6 @@ public class CalculatorTestThorough {
             assertEquals(13 , myCalculator.fibonacciNumberFinder(7));
             assertEquals(21 , myCalculator.fibonacciNumberFinder(8));
             assertEquals(34 , myCalculator.fibonacciNumberFinder(9));
-            assertEquals(55 , myCalculator.fibonacciNumberFinder(10));
-            assertEquals(89 , myCalculator.fibonacciNumberFinder(11));
-            assertEquals(144 , myCalculator.fibonacciNumberFinder(12));
-            assertEquals(233, myCalculator.fibonacciNumberFinder(13));
-            assertEquals(377 , myCalculator.fibonacciNumberFinder(14));
-            assertEquals(610 , myCalculator.fibonacciNumberFinder(15));
-            assertEquals(987 , myCalculator.fibonacciNumberFinder(16));
 
             assertEquals(317811 , myCalculator.fibonacciNumberFinder(28));
         }
@@ -133,7 +126,5 @@ public class CalculatorTestThorough {
         }
 
     }
-
-
 
 }
