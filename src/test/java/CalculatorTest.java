@@ -58,22 +58,22 @@ public class CalculatorTest {
 
     }
 
-    @Test
-    public void divideByZeroFailure(){
-        Calculator myCalculator = new Calculator();
-
-        String failureMessage =  "/ by zero";
-
-        try{
-            myCalculator.divide(5, 0);
-            fail();
-        }
-        catch (ArithmeticException e){
-            assertTrue(failureMessage.contains(e.getMessage()));
-        }
-
-
-    }
+//    @Test
+//    public void divideByZeroFailure(){
+//        Calculator myCalculator = new Calculator();
+//
+//        String failureMessage =  "/ by zero";
+//
+//        try{
+//            myCalculator.divide(5, 0);
+//            fail();
+//        }
+//        catch (ArithmeticException e){
+//            assertTrue(failureMessage.contains(e.getMessage()));
+//        }
+//
+//
+//    }
 
     @Test
     public void fibonacciTest(){
