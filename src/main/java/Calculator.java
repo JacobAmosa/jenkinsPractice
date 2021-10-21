@@ -4,8 +4,6 @@ import java.util.UUID;
 
 public class Calculator {
 
-    BREAKING THE PROGRAM!!!!
-
     public Calculator(){
 
     }
