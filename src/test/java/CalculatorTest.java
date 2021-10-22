@@ -9,6 +9,15 @@ import java.util.Set;
 import static org.junit.Assert.*;
 public class CalculatorTest {
 
+  @Test
+  public void dumbTest(){
+    boolean value = true;
+    assertEquals(true, value);
+  }
+
+
+
+
 //    @Test
 //    public void addTest(){
 //        Calculator myCalculator = new Calculator();

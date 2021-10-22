@@ -10,6 +10,14 @@ import static org.junit.Assert.*;
 
 public class CalculatorTestThorough {
 
+  @Test
+  public void dumbTest(){
+    boolean value = true;
+    assertEquals(true, value);
+  }
+
+
+
 //    @Test
 //    public void addTest(){
 //        Calculator myCalculator = new Calculator();
